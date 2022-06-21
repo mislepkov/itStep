@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/style.css">
+   <title>CSS</title>
+</head>
+
+<body>
+   <h1>CSS
+      <img src="./img/logo-css.png">
+   </h1>
+   <ol>
+      <li><a href="#menu1">Способы</a></li>
+      <li><a href="#menu2">Правила</a></li>
+      <li><a href="#menu3">Пример</a></li>
+   </ol>
+   <p>
+      CSS <img
+         src="https://image.shutterstock.com/image-vector/css-letter-original-monogram-logo-260nw-1772456621.jpg">(
+      англ. Cascading Style Sheets — каскадные таблицы стилей) — формальный язык описания внешнего вида документа,
+      написанного с использованием языка разметки.
+      Преимущественно используется как средство описания, оформления внешнего вида веб-страниц,
+      написанных с помощью языков разметки HTML и XHTML, но может также применяться к любым XML-документам,
+      например, к SVG или XUL.
+   </p>
+
+   <h2 id="menu1">Способы подключения CSS к документу</h2>
+
+   <p>
+      Правила CSS<img
+         src="./img/png-clipart-html-css3-cascading-style-sheets-logo-markup-language-digital-agency-miscellaneous-blue-thumbnail.png">
+      пишутся на формальном языке CSS и располагаются в таблицах стилей, то есть таблицы стилей содержат в себе правила
+      CSS.
+      Эти таблицы стилей могут располагаться как в самом веб-документе, внешний вид которого они описывают, так и в
+      отдельных файлах, имеющих формат CSS.
+      (По сути, формат CSS<img
+         src="https://image.shutterstock.com/image-vector/css-letter-original-monogram-logo-260nw-1772456621.jpg"> — это
+      обычный текстовый файл. В файле .css не содержится ничего, кроме перечня правил CSS<img
+         src="https://image.shutterstock.com/image-vector/css-letter-original-monogram-logo-260nw-1772456621.jpg"> и
+      комментариев к ним.)
+   </p>
+   <p>То есть, эти таблицы стилей могут быть подключены, внедрены в описываемый ими веб-документ четырьмя различными
+      способами:</p>
+
+
+   <ul>
+      <li>
+         - когда таблица стилей находится в отдельном файле, она может быть подключена к веб-документу посредством тега
+         <span>&lt;link&gt;</span>,
+         располагающегося в этом документе между тегами <span>&lt;head&gt;</span> и <span>&lt;head&gt;</span>.
+         (Тег <span>&lt;link&gt;</span> будет иметь атрибут <span class="blue">href</span>, имеющий значением адрес этой
+         таблицы стилей).
+         Все правила этой таблицы действуют на протяжении всего документа;
+      </li>
+   <li>
+      - когда таблица стилей находится в отдельном файле, она может быть подключена к веб-документу посредством
+      директивы <span class="blue">@import,</span>
+      располагающейся в этом документе между тегами <span>&lt;style&gt</span>; и <span>&lt;style&gt;</span>
+      (которые, в свою очередь, располагаются в этом документе между тегами <span>&lt;head&gt;</span> и
+      <span>&lt;head&gt;</span>)
+      сразу после тега <span>&lt;style&gt;</span>, которая также указывает (в своих скобках, после слова url) на
+      адрес этой таблицы стилей.
+   </li>
+   <p>Все правила этой таблицы действуют на протяжении всего документа;</p>
+   <li>
+      - когда таблица стилей описана в самом документе, она может располагаться в нём между тегами
+      <span>&lt;style&gt;</span> и <span>&lt;style&gt;</span>
+      (которые, в свою очередь, располагаются в этом документе между тегами <span>&lt;head&gt;</span> и
+      <span>&lt;head&gt;</span>).
+      Все правила этой таблицы действуют на протяжении всего документа;
+   </li>
+   <li>
+      - когда таблица стилей описана в самом документе, она может располагаться в нём в теле какого-то отдельного
+      тега (
+      посредством его атрибута style) этого документа.
+   </li>
+   Все правила этой таблицы действуют только на содержимое этого тега.
+   </ul>
+
+   <h2 id="menu2">Правила построения CSS<img
+         src="https://image.shutterstock.com/image-vector/css-letter-original-monogram-logo-260nw-1772456621.jpg"></h2>
+
+   <p>
+      В первых трёх случаях подключения таблицы CSS к документу (см. выше) каждое правило CSS из таблицы стилей имеет
+      две основные части —
+      селектор и блок объявлений. Селектор, расположенный в левой части правила, определяет, на какие части документа
+      распространяется правило.
+      Блок объявлений располагается в правой части правила. Он помещается в фигурные скобки, и, в свою очередь, состоит
+      из одного или более объявлений,
+      разделённых знаком «;». Каждое объявление представляет собой сочетание свойства CSS и значения, разделённых знаком
+      ": ".
+      Селекторы могут группироваться в одной строке через запятую.
+      В таком случае свойство применяется к каждому из них.
+   </p>
+
+   <h2 id="menu3">Пример таблицы стилей</h2>
+
+   <p>
+      Пример таблицы стилей (в таком виде она может быть либо размещена в отдельном файле .css либо же обрамлена тегами
+      <span>&lt;style&gt;</span>
+      и размещена в «шапке» той самой веб-страницы, на которую она действует):
+   </p>
+   <pre>
+
+       <span class="yellow">p</span> {
+          <span class="red">font-family</span>: <span class="orange">arial, helvetica, sans-serif</span>;
+       }
+       <span class="yellow">h2</span> {
+          <span class="red">font-size</span>: <span class="orange">20pt</span>;
+          <span class="red">color</span>: <span class="orange">red</span>;
+          <span class="red">background</span>: <span class="orange">white</span>;
+       }
+       <span class="yellow">.note</span> {
+          <span class="red">color</span>: <span class="orange">red</span>;
+          <span class="red">background-color</span>: <span class="orange">yellow</span>;
+          <span class="red">font-weight</span>: <span class="orange">bold</span>;
+       }
+       <span class="yellow">p#paragraph1 </span>{
+          <span class="red">padding-left</span>: <span class="orange">10px</span>;
+       }
+    </pre>
+</body>
+
+</html>
