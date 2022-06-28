@@ -1,0 +1,15 @@
+p {
+   font-size: 30px;
+   color: #808080;
+   word-spacing: 6px;
+   letter-spacing: 4px;
+}
+
+span , .throught {
+text-decoration: underline;
+text-decoration: line-through;
+}
+
+span + .overline{
+  text-decoration: overline; 
+}
