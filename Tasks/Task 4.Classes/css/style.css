@@ -1,15 +1,35 @@
-p {
-   font-size: 30px;
-   color: #808080;
-   word-spacing: 6px;
-   letter-spacing: 4px;
-}
+.numbers{
+  font-size: 30px;
+  color: #808080;
+  letter-spacing:0.3em;
+  word-spacing: 0.2em;
 
-span , .throught {
+}
+.odd{
 text-decoration: underline;
-text-decoration: line-through;
 }
 
-span + .overline{
-  text-decoration: overline; 
+span,p + .even{
+  text-decoration: overline;
+}
+
+.simple{
+  font-weight: 900;
+}
+
+.odd  del{
+  text-shadow: 2px 3px 4px rgb(236, 165, 11);
+  font-size: 35px;
+}
+
+.power{
+  color: rgb(255, 20, 147);
+}
+
+.sqr{
+  opacity: 0;
+}
+
+.sqr:hover{
+  opacity: 1;
 }
