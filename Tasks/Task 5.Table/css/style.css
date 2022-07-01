@@ -1,0 +1,39 @@
+/* общие стили для 3х таблиц */
+table{
+   border: 3px solid black;
+   width: 600px;
+   height: 300px;  
+   border-collapse: collapse;
+   background-color: brown;
+   
+}
+caption{
+   font-size: 2em;
+}
+
+tr,td{
+   border: 3px solid black;
+}
+/* start the second table */
+.size{
+   font-size: 2em;
+   color: beige;
+}
+.left{
+   text-align: left;
+}
+.center{
+   text-align: center;
+}
+.right{
+   text-align: right;
+}
+.top{
+   vertical-align: top;
+}
+.bottom{
+   vertical-align: bottom;
+}
+/* end of second table */
+
+

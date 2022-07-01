@@ -1,0 +1,32 @@
+table {
+   border: 3px solid black;
+   width: 600px;
+   height: 300px;
+   border-collapse: collapse;
+   background-color: brown;
+   font-size: 2em;
+   color: beige;
+}
+caption{
+   color: black;
+}
+tr,
+td {
+   border: 3px solid black;
+}
+td:nth-child(1){
+   vertical-align: top;
+   
+}
+td:nth-child(2){
+   vertical-align: middle;
+}
+td:nth-child(3){
+   vertical-align: bottom;
+}
+.second:nth-child(1n+1){
+   text-align: center;
+}
+.third:nth-child(1n+1){
+text-align: right;
+}
