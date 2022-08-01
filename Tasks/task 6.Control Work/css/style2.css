@@ -1,0 +1,98 @@
+body{
+   background-image: url(../img/фонjpg.jpg);
+   background-attachment: fixed;
+}
+.container{
+   width: 100%;
+   height: 100%;
+}
+
+
+
+header{
+   font-size: 42px;
+   text-align: center;
+   vertical-align: middle;
+   background-color: aliceblue;
+   opacity: 0.25;
+   width: 100%;
+   /* height: 150px; */
+}
+header:hover{
+   opacity: 0.9;
+}
+.logo span{
+   font-family:'Mouse Memoirs',sans-serif;
+   font-size: 70px;
+   color: rgb(83, 83, 79);
+}
+
+a{
+   text-decoration: none;
+   font-family: 'BhuTuka Expanded One', cursive;
+   color: brown;
+}
+.link ul li{
+   list-style-type: none;
+}
+
+#histori {
+   /* display: block;
+   float: left; */
+   font-style: italic;
+   font-size: 19px;
+   width: 300px;
+   height: 400px;
+   background-color: azure;
+   border-radius: 10%;
+box-shadow: 4px 4px 8px 14px rgba(230, 51, 20, 0.2);
+   /* margin-top: 10px;
+   margin-left: 50px;
+   padding: 5px; */
+   border: 1px solid rgb(209, 169, 169);
+   /* text-align: center; */
+   /* vertical-align: middle; */
+}
+
+table{
+   width: 700px;
+   margin: auto;
+}
+img {
+   width: 170px;
+   height: 250px;
+   object-fit: contain;
+}
+
+.start {
+   /* display: block;
+   float: right; */
+   margin-left: auto;
+      margin-right: auto;
+      
+   width: 300px;
+   height: 500px;
+   border: 1px solid black;
+   margin-top: 10px;
+   padding: 7px;
+   background-color: azure;
+      border-radius: 10%;
+      box-shadow: 4px 4px 8px 14px rgba(230, 51, 20, 0.2);
+}
+
+.rev{
+   margin-top: 100px;
+   background-color: grey;
+   height: 400px;
+   width: 100%;
+   text-align: center;
+}
+.revstart{
+   text-align: center;
+   width: 50%;
+   margin: auto;
+}
+.table{
+   border:1px solid brown;
+   background-color: rgb(235, 144, 144);
+}
