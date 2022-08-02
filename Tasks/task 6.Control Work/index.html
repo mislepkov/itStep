@@ -25,7 +25,7 @@
                     <ul>
                         <li><a href="#histori">История Создания</a></li>
                         <li><a href="#review">Краткий Обзор</a></li>
-                        <li><a href="#">Примеры Кода</a></li>
+                        <li><a href="#example">Примеры Кода</a></li>
                     </ul>
                 </div>
             </div>
@@ -67,30 +67,89 @@
         <div class="rev">
             <div class="revstart">
                 <h2 id="review">Обзор языка</h2>
-                <p>JavaScript ("JS" для краткости) — это полноценный динамический язык программирования, который
+                <p>JavaScript ("JS" для краткости) — <a href="https://learn.javascript.ru" target="_blank">это
+                        полноценный динамический язык программирования</a>, который
                     применяется к HTML
                     документу, и может обеспечить динамическую интерактивность на веб-сайтах. Его разработал Brendan
                     Eich, сооснователь
                     проекта Mozilla, Mozilla Foundation и Mozilla Corporation.</p>
             </div>
-            <h2>Преимущества</h2>
+            <!-- <h2>Преимущества</h2> -->
             <table class="table first">
+                <caption>Преимущества</caption>
+                <thead>
+                    <tr>
+                        <td>1</td>
+                        <td>Незаменимость для веб-разработки. Поддержка скриптов всеми популярными браузерами; полная
+                            интеграция с вёрсткой страниц
+                            (HTML+CSS) и серверной частью (backend).</td>
+                    </tr>
+                </thead>
                 <tr>
-                    <th>1</th>
-                    <th>Незаменимость для веб-разработки. Поддержка скриптов всеми популярными браузерами; полная интеграция с вёрсткой страниц
-                    (HTML+CSS) и серверной частью (backend).</th>
+                    <td>2</td>
+                    <td>Скорость работы и производительность. Javascript позволяет частично обрабатывать
+                        веб-страницы на
+                        компьютерах
+                        пользователя без запросов к серверу. Это экономит время и трафик, снижает нагрузку на
+                        сервер.
+                    </td>
                 </tr>
                 <tr>
-                    <th>2</th>
-                    <th>Скорость работы и производительность. Javascript позволяет частично обрабатывать веб-страницы на компьютерах
-                    пользователя без запросов к серверу. Это экономит время и трафик, снижает нагрузку на сервер.</th>
+                    <td>3</td>
+                    <td>Мощная инфраструктура (экосистема). Первые 10 лет этого не было и в помине. Затем количество
+                        готовых решений в открытом
+                        доступе так возросло, что работать с Javascript и его фреймворками стало удовольствием.</td>
                 </tr>
                 <tr>
-                    <th>3</th>
-                    <th>Мощная инфраструктура (экосистема). Первые 10 лет этого не было и в помине. Затем количество готовых решений в открытом
-                    доступе так возросло, что работать с Javascript и его фреймворками стало удовольствием.</th>
+                    <td>4</td>
+                    <td>Простота и рациональность применения. Простую задачку можно решить за 5 минут, не надо делать
+                        лишнюю работу. Для сложных
+                        заданий есть варианты решения, можно подобрать лучший, адаптировать.</td>
                 </tr>
             </table>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, sed obcaecati nobis voluptatem,
+                    aliquam nulla tempore dolore iste cum assumenda in facere facilis excepturi accusamus molestiae
+                    itaque veritatis rerum molestias!</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, distinctio?</li>
+            </ul>
+            <br><br><br><br>
+            <ol>
+                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo incidunt nihil inventore
+                    cupiditate enim, iure libero consequuntur accusantium distinctio iste exercitationem consectetur
+                    expedita? Accusamus aspernatur illum quisquam non eligendi corporis.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, inventore aliquid!</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorem rem dignissimos?
+                    Ducimus, vero odit.</li>
+                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci iste fugit corrupti officia
+                    tenetur laborum illo eum quaerat!</li>
+            </ol>
+            <!-- <ul class="list-img">
+                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, sed obcaecati nobis voluptatem, aliquam nulla
+                    tempore dolore iste cum assumenda in facere facilis excepturi accusamus molestiae itaque veritatis rerum
+                    molestias!</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, distinctio?</li> 
+                </ul>-->
+            <div class="example-code">
+                <h2 id="example">Примеры Кода</h2>
+                <pre>
+                        <code>
+         <span class="func">function</span> checkParent <span class="purpl">(</span>src, dest<span class="purple">)</span> {
+        while <span class="yellow">(</span>src != null<span class="yellow">)</span> {
+        <span class="func">if</span> <span class="green">(src.tagName == dest)</span> return src
+        src = src.parentElement
+                        </code>
+                    </pre>
+
+            </div>
         </div>
     </div>
 
