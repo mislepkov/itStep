@@ -1,0 +1,98 @@
+   body ,input,
+   textarea,
+   select,
+   button{
+         color: #202124;
+         font-family: roboto, "Noto Sans Myanmar UI", arial, sans-serif;   
+      font-size: 14px;
+         line-height: 1.4286;
+   }
+
+.main{
+   margin-top: 300px;
+}
+.container1{
+   display: flex;
+   width: 748px;
+   height: auto;
+   padding: 48px 40px 36px;
+   border: 1px solid rgb(150, 149, 149);
+   border-radius: 5px;
+   margin: 0 auto;
+}
+.leftside{
+   margin: 0px -48px;
+   padding: 0px 48px;
+}
+.logo{
+   display: flex;
+   justify-content: flex-start;
+}
+input{
+border-radius: 5px;
+   border: 1px solid rgb(150, 149, 149);
+   height: 36px;
+}
+.lastname{
+   margin-left: 5px;
+}
+.username{
+   padding: 24px 0px 0px;
+}
+span{
+   color: rgb(150, 149, 149);
+   font-size: 13px;
+}
+.usecurrent{
+   margin: -25px 0px;
+}
+.usecurrent h6{
+   color: rgb(20, 103, 180);
+   font-weight: bold;
+   font-size: 14px;
+}
+.button{
+   display: flex;
+   justify-content: space-between;
+   margin: 26px 0px 0px -8px;
+   padding: 0px 0px 20px;
+}
+
+.firstbutton{
+   color: rgb(20, 103, 180);
+      font-weight: bold;
+      font-size: 14px;
+      border: none;
+      background-color: #fff;
+}
+
+.secondbutton{
+width: 78.12px;
+height: 40px;
+border: none;
+border-radius: 5px;
+background-color: rgb(20, 103, 180);
+color: #fff;
+}
+.rightside{
+   display: flex;
+   width: 300px;
+
+}
+.imageside{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   width: 100%;
+}
+.image{
+   position: relative;
+   left: 90px;
+   top: 60px;
+}
+
+.forimage{
+   position: relative;
+   left: 100px;
+      top: 40px;
+}
