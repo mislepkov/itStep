@@ -1,48 +1,162 @@
 
-    .trapezoid {
-      position: relative;
-      top: 150px;
-      margin: 0 auto;  
-      border-bottom: 100px solid red;
-        border-left: 25px solid transparent;
-        border-right: 25px solid transparent;
-        height: 0;
-        width: 100px;
-      }
-      .triangle-bottomleft {
-        position: absolute;
-        bottom: 0px;
-        width: 0;
-        height: 0;
-        border-bottom: 100px solid red;
-        border-right: 100px solid transparent;
-      }
+          .trapezoid {
+            position: relative;
+            top: 150px;
+            margin: 0 auto;  
+            border-bottom: 100px solid red;
+              border-left: 25px solid transparent;
+              border-right: 25px solid transparent;
+              height: 0;
+              width: 100px;
+            }
+            .triangle-bottomleft {
+              position: absolute;
+              bottom: 0px;
+              width: 0;
+              height: 0;
+              border-bottom: 70px solid red;
+              border-right: 100px solid transparent;
+            }
 
-      .triangle-bottomright {
-        position: absolute;
-        bottom: 0px;
-        width: 0;
-        height: 0;
-        border-bottom: 100px solid red;
-        border-left: 100px solid transparent;
-      }
-      .flex-eyes{
-        display: flex;
-        justify-content: space-around;
-      }
-      .oval {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 30px;
-        height: 15px;
-        background: white;
-        border-radius: 100px / 50px;
-      }
-      .moon {
-        transform: rotate(-50deg);
-        width: 15px;
-        height: 15px;
-        border-radius: 50%;
-        box-shadow: 2px 2px 0 0 rgb(0, 0, 0);
-      }
+            .triangle-bottomright {
+              position: absolute;
+              bottom: 0px;
+              width: 0;
+              height: 0;
+              border-bottom: 70px solid red;
+              border-left: 100px solid transparent;
+            }
+            .flex-eyes{
+              display: flex;
+              justify-content: space-around;
+            }
+            .oval {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 30px;
+              height: 15px;
+              background: white;
+              border-radius: 100px / 50px;
+            }
+            .moon {
+              transform: rotate(-50deg);
+              width: 15px;
+              height: 15px;
+              border-radius: 50%;
+              box-shadow: 2px 2px 0 0 rgb(0, 0, 0);
+            }
+                  .triangle-down {
+                    position: absolute;
+                    left: 40px;
+                      top: 20px;
+                    width: 0;
+                    height: 0;
+                    border-left: 12px solid transparent;
+                    border-right: 12px solid transparent;
+                    border-top: 20px solid rgb(22, 20, 20);
+                  }
+
+                              .pointer {
+                                width: 142px;
+                                height: 40px;
+                                position: relative;
+                                background: red;
+                                transform: rotate(137deg);
+                                  left: 60px;
+                                  
+                              }
+                  
+                              .pointer:after {
+                                content: "";
+                                position: absolute;
+                                left: 0;
+                                bottom: 0;
+                                width: 0;
+                                height: 0;
+                                border-left: 20px solid white;
+                                border-top: 20px solid transparent;
+                                border-bottom: 20px solid transparent;
+                              }
+                  
+                              .pointer:before {
+                                content: "";
+                                position: absolute;
+                                right: -20px;
+                                bottom: 0;
+                                width: 0;
+                                height: 0;
+                                border-left: 20px solid red;
+                                border-top: 20px solid transparent;
+                                border-bottom: 20px solid transparent;
+                              }
+.moon1 {
+  position: absolute;
+  bottom: -47px;
+    left: 11px;
+  transform: rotate(17deg);
+  width: 30px;
+  height: 15px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 0 0 rgb(0, 0, 0);
+}
+.moon2 {
+  position: absolute;
+  top: 22px;
+  left: 11px;
+  transform: rotate(17deg);
+  width: 30px;
+  height: 15px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 0 0 rgb(0, 0, 0);
+}
+
+.circle {
+  position: absolute;
+  left: 33px;
+  bottom: -85px;
+  width: 35px;
+  height: 35px;
+  background: rgb(0, 0, 0);
+  border-radius: 50%
+  
+}
+
+
+.talkbubble {
+  width: 120px;
+  height: 80px;
+  background: rgb(0, 0, 0);
+  position: relative;
+  left: 1000px;
+    bottom: 57px;
+    transform: rotate(337deg);
+  
+  border-radius: 10px;
+}
+
+.talkbubble:before {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 26px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-right: 26px solid rgb(0, 0, 0);
+  border-bottom: 13px solid transparent;
+}
+
+.rectangle {
+  width: 114px;
+  height: 70px;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  top: 3px;
+  left: 2px;
+}
+
+.rectangle p{
+    
+      font-size: 22px;
+      font-weight: 900;}
