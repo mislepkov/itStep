@@ -1,0 +1,67 @@
+@font-face{
+
+}
+
+/* .container {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+} */
+/* .header{
+    display: block;
+    align-items: center;
+    text-align: center;
+} */
+.header_menu{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 1295px;
+    height: 90px;
+    left: 313px;
+    top: 0px;
+    background-color: white;
+    align-items: center;
+
+}
+.header_icon{
+    display: flex;
+}
+.header_icons{
+    padding: 0 10px;
+}
+.header_notsee{
+    border: 1px solid #00868A;
+    background-color: #00868A;
+    width: 224px;
+    height: 23px;
+    align-items: center;
+    text-align: center;
+    top: 25px;
+padding: 10px 15px 8px;
+
+}
+
+.version{
+    position: relative;
+    bottom: 5px;
+    padding-left: 10px;
+}
+.our_salon{
+        position: relative;
+        bottom: 4px;
+         padding-right: 16px;
+}
+.medi{
+    position: relative;
+    bottom: 10px;
+}
+.relative{
+    position: relative;
+    top: 7px;
+}
+
+.icons{
+    position: relative;
+    top: 3px;
+}
