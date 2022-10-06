@@ -1,0 +1,59 @@
+h1 {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 150%;
+}
+
+p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25.6px;
+  font-family: "Mulish", sans-serif;
+}
+
+.container {
+  width: 440px;
+}
+
+.container__header {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+  height: 100px;
+  padding: 32px 20px 32px 20px;
+}
+
+.container__header button {
+  width: 35px;
+  height: 35px;
+  border: 0;
+  background-color: #FFFFFF;
+}
+
+.container__header button img {
+  position: relative;
+}
+
+.container__main {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container__main__info h1 {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 150%;
+}
+
+.container__main__info p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25.6px;
+  font-style: "Mulish", sans-serif;
+}
+/*# sourceMappingURL=style.css.map */

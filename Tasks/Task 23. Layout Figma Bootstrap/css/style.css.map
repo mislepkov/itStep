@@ -1,1 +1,13 @@
+<<<<<<< HEAD
 {"version":3,"sources":["../scss/style.scss","style.css"],"names":[],"mappings":"AAAA;EACI,YAAA;EACA,aAAA;EACA,wCAAA;ACCJ","file":"style.css"}
+=======
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/style.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
+>>>>>>> 27075db7a184d1b9d1ad250decf11eded1aab970
